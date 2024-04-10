@@ -1,2 +1,6 @@
 app:
   addr: :8080
+  mode: debug
+db:
+  type: mysql
+  dsn: root:123456@tcp(127.0.0.1:23306)/goim_backend?charset=utf8mb4&parseTime=True&loc=Local)
