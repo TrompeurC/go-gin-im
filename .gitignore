@@ -1,0 +1,13 @@
+.vscode/
+.idea/
+*swp
+volumes/
+
+node_modules
+.DS_Store
+dist
+dist-srr
+*.local
+/dist/*
+*-lock.*
+pnpm-debug

@@ -1,0 +1,14 @@
+version: 3;
+
+services:
+  mysql:
+    image: mysql:8
+    command: mysqld --character-set-server=utf8mb4
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: goim_backend
+    volumes:
+      - ./volumes/mysql:/var/lib/mysql
+    ports:
+      - "23306:3306"
